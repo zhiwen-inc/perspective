@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": ["./node_modules/@types"],
+        "baseUrl": ".", // 相对于 packages/editor-ui 目录
+        "lib": ["esnext", "dom", "dom.iterable"],
+        "resolveJsonModule": true,
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "src/test.vue"],
+}
